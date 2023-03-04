@@ -7,5 +7,28 @@ Instruções de Autenticação no GitHub via linha de comando
 	- Configurações do usuário na máquina
 		Usuário Padrão:  git config --global user.name "WBoness" 
 		E-mail Padrão: 	git config --global user.email "wbonesss@gmail.com"
-
-	- ter o repositório no GitHub 
+	- Ter o repositório no GitHub (ensino-git)
+	- Estar logado no GitHub
+- Ir para o diretório principal
+- Abrir Git Bash
+- Digitar
+	ssh-keygen -t rsa -b 4096 -C "wbonesss@gmail.com"
+	
+	- Seguir o fluxo até criar as chaves privada e pública (usar a pública)
+- Abrir o arquivo d chave pública e copiar o conteúdo
+-  Abrir GitHub/profile/ settings 
+	- No menu lateral (esquerdo) selecionar SSH and GPG keys 
+	- New SSHkey
+	- Nomear (dica: usar o sistema operacional)
+		- Colar a chave e salvar
+	- Copiar o endereço no GitHub
+		- Vá até o repositório: WBoness/ensino-git
+	-Voltar ao Git Bash
+		- Caso não esteja configurado ainda:
+			- git config --global user.name "WBoness"
+			- git config --global user.email "wbonesss@gmail.com"
+		- git init
+		- git add .
+		- git commit -m "Comentário"
+		- git remote add origin git@github.com:WBoness/ensino-git.git
+		- git push -u origin master
