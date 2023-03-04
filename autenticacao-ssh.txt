@@ -1,0 +1,11 @@
+Instruções de Autenticação no GitHub via linha de comando
+
+- Objetivo: Enviar arquivo para o GitHub sem ter que digitar usuário e senha
+
+- Requisitos: 
+	- Git instalado
+	- Configurações do usuário na máquina
+		Usuário Padrão:  git config --global user.name "WBoness" 
+		E-mail Padrão: 	git config --global user.email "wbonesss@gmail.com"
+
+	- ter o repositório no GitHub 

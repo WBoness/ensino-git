@@ -1,0 +1,11 @@
+Objetivo: deletar umrepositório no GitHub
+
+- No GitHub.com, navegue até a página principal do repositório. 
+- Abaixo do nome do repositório, clique em Configurações.
+- Em Zona de Perigo, clique em Excluir este repositório.
+- Leia os avisos.
+- Clique em Entendi as consequências. 
+- Excluir este repositório.
+- Digite o nome do repositório
+- digite sua senha do Github
+- Exclua
